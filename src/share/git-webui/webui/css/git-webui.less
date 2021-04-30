@@ -48,8 +48,8 @@
 }
 
 .flex(@value) {
-    flex: @value @value 0;
-    -webkit-flex: @value @value 0;
+    flex: @value @value 0px;
+    -webkit-flex: @value @value 0px;
 }
 
 .flex-direction(@value) {
@@ -145,21 +145,21 @@ body {
         }
 
         #sidebar-workspace h4:before {
-            content: url(/img/computer.svg);
+            content: url(../img/computer.svg);
         }
 
         #sidebar-remote h4:before {
-            content: url(/img/daemon.svg);
+            content: url(../img/daemon.svg);
         }
 
         #sidebar-local-branches, #sidebar-remote-branches {
             h4:before {
-                content: url(/img/branch.svg);
+                content: url(../img/branch.svg);
             }
         }
 
         #sidebar-tags h4:before {
-            content: url(/img/tag.svg);
+            content: url(../img/tag.svg);
         }
 
         ul {
@@ -502,13 +502,13 @@ body {
     }
 
     .tree-item-tree:before {
-        content: url(/img/folder.svg);
+        content: url(../img/folder.svg);
         vertical-align: middle;
         margin: 0.3em;
     }
 
     .tree-item-blob:before {
-        content: url(/img/file.svg);
+        content: url(../img/file.svg);
         vertical-align: middle;
         margin: 0.3em;
     }

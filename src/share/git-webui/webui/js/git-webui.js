@@ -301,7 +301,7 @@ webui.SideBarView = function(mainView) {
 
     self.mainView = mainView;
     self.element = $(   '<div id="sidebar">' +
-                            '<a href="#" data-toggle="modal" data-target="#help-modal"><img id="sidebar-logo" src="/img/git-logo.png"></a>' +
+                            '<a href="#" data-toggle="modal" data-target="#help-modal"><img id="sidebar-logo" src="img/git-logo.png"></a>' +
                             '<div id="sidebar-content">' +
                                 '<section id="sidebar-workspace">' +
                                     '<h4>Workspace</h4>' +
@@ -1722,13 +1722,13 @@ function MainUi() {
         self.mainView.appendChild(element);
     }
 
-    $.get("/dirname", function (data) {
+    $.get("dirname", function (data) {
         webui.repo = data;
         var title = $("title")[0];
         title.textContent = "Git - " + webui.repo;
-        $.get("/viewonly", function (data) {
+        $.get("viewonly", function (data) {
             webui.viewonly = data == "1";
-            $.get("/hostname", function (data) {
+            $.get("hostname", function (data) {
                 webui.hostname = data
 
                 var body = $("body")[0];

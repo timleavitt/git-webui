@@ -44,8 +44,8 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
 }
 #sidebar {
   display: flex;
@@ -67,8 +67,8 @@ body {
   font-weight: bold;
 }
 #sidebar #sidebar-content {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   overflow-x: hidden;
   overflow-y: auto;
   cursor: default;
@@ -92,17 +92,17 @@ body {
   padding: 10px 0;
 }
 #sidebar #sidebar-content #sidebar-workspace h4:before {
-  content: url(/img/computer.svg);
+  content: url(../img/computer.svg);
 }
 #sidebar #sidebar-content #sidebar-remote h4:before {
-  content: url(/img/daemon.svg);
+  content: url(../img/daemon.svg);
 }
 #sidebar #sidebar-content #sidebar-local-branches h4:before,
 #sidebar #sidebar-content #sidebar-remote-branches h4:before {
-  content: url(/img/branch.svg);
+  content: url(../img/branch.svg);
 }
 #sidebar #sidebar-content #sidebar-tags h4:before {
-  content: url(/img/tag.svg);
+  content: url(../img/tag.svg);
 }
 #sidebar #sidebar-content ul {
   margin: 0;
@@ -130,12 +130,12 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
 }
 #main-view .jumbotron {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   margin: 0;
 }
 #main-view .jumbotron h1 {
@@ -147,12 +147,12 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
 }
 #log-view {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   overflow-y: auto;
   cursor: default;
   margin-bottom: 0;
@@ -227,8 +227,8 @@ body {
   min-width: 0;
   flex-direction: column;
   -webkit-flex-direction: column;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
 }
 #commit-view #commit-view-header {
   border: solid #dddddd;
@@ -239,8 +239,8 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   flex-direction: column;
   -webkit-flex-direction: column;
 }
@@ -251,16 +251,16 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
 }
 .file-list-view .file-list-container {
   display: flex;
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   overflow: auto;
 }
 .file-list-view .file-list-container .file-list-left-container {
@@ -269,8 +269,8 @@ body {
 }
 .file-list-view .file-list-container .file-list-right-container,
 .file-list-view .file-list-container .file-list-left-container {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   overflow: auto;
 }
 .file-list-view .file-list-container .list-group {
@@ -292,8 +292,8 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   flex-direction: column;
   -webkit-flex-direction: column;
   border: 0;
@@ -323,8 +323,8 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   align-items: flex-end;
   justify-content: flex-end;
 }
@@ -333,16 +333,16 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   padding: 0;
 }
 .diff-view-container .panel-body:before {
   display: block;
 }
 .diff-view-container .panel-body .diff-view {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   overflow: auto;
 }
 .diff-view-container .panel-body .diff-view:nth-child(2) {
@@ -392,8 +392,8 @@ body {
   background-color: #d6adeb;
 }
 #tree-view {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   flex-direction: column;
   -webkit-flex-direction: column;
   display: flex;
@@ -408,8 +408,8 @@ body {
 }
 #tree-view #tree-view-tree-content {
   overflow: auto;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   margin: 0;
 }
 #tree-view #tree-view-blob-content {
@@ -419,13 +419,13 @@ body {
   min-width: 0;
   flex-direction: column;
   -webkit-flex-direction: column;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   width: 100%;
 }
 #tree-view #tree-view-blob-content iframe {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   border: 0;
 }
 #tree-view .list-group-item {
@@ -438,19 +438,19 @@ body {
   padding: 5px 10px;
 }
 #tree-view .list-group-item > :first-child {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
 }
 #tree-view .list-group-item > :last-child {
   width: 2em;
 }
 #tree-view .tree-item-tree:before {
-  content: url(/img/folder.svg);
+  content: url(../img/folder.svg);
   vertical-align: middle;
   margin: 0.3em;
 }
 #tree-view .tree-item-blob:before {
-  content: url(/img/file.svg);
+  content: url(../img/file.svg);
   vertical-align: middle;
   margin: 0.3em;
 }
@@ -465,8 +465,8 @@ body {
   min-width: 0;
   flex-direction: column;
   -webkit-flex-direction: column;
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
 }
 #workspace-view #workspace-diff-view,
 #commit-explorer-view #workspace-diff-view,
@@ -476,16 +476,16 @@ body {
   display: -webkit-flex;
   min-height: 0;
   min-width: 0;
-  flex: 2 2 0;
-  -webkit-flex: 2 2 0;
+  flex: 2 2 0px;
+  -webkit-flex: 2 2 0px;
   overflow: auto;
 }
 #workspace-view #workspace-editor,
 #commit-explorer-view #workspace-editor,
 #workspace-view #commit-explorer-navigator-view,
 #commit-explorer-view #commit-explorer-navigator-view {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   display: flex;
   display: -webkit-flex;
   min-height: 0;
@@ -510,8 +510,8 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  flex: 2 2 0;
-  -webkit-flex: 2 2 0;
+  flex: 2 2 0px;
+  -webkit-flex: 2 2 0px;
 }
 #workspace-view #workspace-editor #working-copy-view .file-list-container,
 #commit-explorer-view #workspace-editor #working-copy-view .file-list-container,
@@ -521,8 +521,8 @@ body {
 #commit-explorer-view #workspace-editor #staging-area-view .file-list-container,
 #workspace-view #commit-explorer-navigator-view #staging-area-view .file-list-container,
 #commit-explorer-view #commit-explorer-navigator-view #staging-area-view .file-list-container {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   overflow: auto;
 }
 #workspace-view #workspace-editor #working-copy-view .file-list-container .list-group,
@@ -564,15 +564,15 @@ body {
 #commit-explorer-view #workspace-editor #commit-message-view,
 #workspace-view #commit-explorer-navigator-view #commit-message-view,
 #commit-explorer-view #commit-explorer-navigator-view #commit-message-view {
-  flex: 3 3 0;
-  -webkit-flex: 3 3 0;
+  flex: 3 3 0px;
+  -webkit-flex: 3 3 0px;
 }
 #workspace-view #workspace-editor #commit-message-view textarea,
 #commit-explorer-view #workspace-editor #commit-message-view textarea,
 #workspace-view #commit-explorer-navigator-view #commit-message-view textarea,
 #commit-explorer-view #commit-explorer-navigator-view #commit-message-view textarea {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   resize: none;
   margin: 0;
   border: 0;
@@ -583,8 +583,8 @@ body {
 #commit-explorer-view #workspace-editor .panel,
 #workspace-view #commit-explorer-navigator-view .panel,
 #commit-explorer-view #commit-explorer-navigator-view .panel {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   display: flex;
   display: -webkit-flex;
   min-height: 0;
@@ -618,8 +618,8 @@ body {
 #commit-explorer-view #workspace-editor .panel .panel-heading h5,
 #workspace-view #commit-explorer-navigator-view .panel .panel-heading h5,
 #commit-explorer-view #commit-explorer-navigator-view .panel .panel-heading h5 {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   margin: 0;
 }
 #workspace-view #workspace-editor .panel:last-child,
@@ -634,7 +634,7 @@ body {
   cursor: pointer;
 }
 #commit-explorer-view #commit-explorer-navigator-view .panel .panel-body {
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
+  flex: 1 1 0px;
+  -webkit-flex: 1 1 0px;
   overflow: auto;
 }
